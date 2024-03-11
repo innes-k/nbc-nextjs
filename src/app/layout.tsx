@@ -17,13 +17,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <nav>
-          <Link href="/ssg">SSG</Link>
-          <Link href="/isr">ISR</Link>
-          <Link href="/ssr">SSR</Link>
-          <Link href="/csr">CSR</Link>
-        </nav>
+      <body className={`${inter.className} w-1/2 mx-auto`}>
+        <div className="flex-col items-center mt-6 mb-6">
+          <div className="flex justify-center text-4xl mb-6">
+            <p>Cats Fun Fact!</p>
+          </div>
+          <div className="flex justify-center">
+            <p>Click here → </p>
+            <nav className="flex gap-3">
+              <Link href="/ssg">SSG</Link>
+              <Link href="/isr">ISR</Link>
+              <Link href="/ssr">SSR</Link>
+              <Link href="/csr">CSR</Link>
+            </nav>
+          </div>
+        </div>
         {children}
       </body>
     </html>
