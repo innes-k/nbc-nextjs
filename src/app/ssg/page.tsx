@@ -1,9 +1,14 @@
 "use client";
 
+import SSG from "@/components/SSG";
 import React from "react";
 
-const SSG = () => {
-  return <div>SSG</div>;
+const SsgPage = () => {
+  return (
+    <div>
+      <SSG />
+    </div>
+  );
 };
 
-export default SSG;
+export default SsgPage;

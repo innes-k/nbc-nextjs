@@ -1,7 +1,12 @@
 import React from "react";
+import CSR from "@/components/CSR";
 
-const CSR = () => {
-  return <div>CSR</div>;
+const CsrPage = () => {
+  return (
+    <div>
+      <CSR />
+    </div>
+  );
 };
 
-export default CSR;
+export default CsrPage;

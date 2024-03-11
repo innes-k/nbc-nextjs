@@ -1,7 +1,12 @@
+import ISR from "@/components/ISR";
 import React from "react";
 
-const ISR = () => {
-  return <div>ISR</div>;
+const IsrPage = () => {
+  return (
+    <div>
+      <ISR />
+    </div>
+  );
 };
 
-export default ISR;
+export default IsrPage;

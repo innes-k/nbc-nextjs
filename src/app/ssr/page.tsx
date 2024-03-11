@@ -1,7 +1,12 @@
+import SSR from "@/components/SSR";
 import React from "react";
 
-const SSR = () => {
-  return <div>SSR</div>;
+const SsrPage = () => {
+  return (
+    <div>
+      <SSR />
+    </div>
+  );
 };
 
-export default SSR;
+export default SsrPage;
